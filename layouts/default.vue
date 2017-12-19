@@ -6,7 +6,7 @@
         <v-list>
           <v-list-tile>
             <v-list-tile-title class="title">
-              Seções
+              Menu
             </v-list-tile-title>
           </v-list-tile>
         </v-list>
