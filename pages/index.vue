@@ -1,6 +1,28 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
+  <v-layout justify-center>
+    <v-flex xs10>
+      <div class="sections">
+        <section-title title="Sobre"></section-title>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pulvinar malesuada accumsan. Suspendisse quis faucibus massa. Quisque dignissim euismod ipsum in tincidunt. Aenean ut mattis odio. Praesent at ligula et sem ullamcorper bibendum. Donec pulvinar aliquet sem faucibus maximus. Duis nec semper urna, sed pretium metus. Etiam scelerisque consectetur consequat. Aenean in imperdiet sem. Aenean ut risus eu diam aliquet maximus. In a dictum felis, sit amet tincidunt metus. Aliquam id viverra tortor. Nulla non elementum justo. Nulla at neque id neque aliquet placerat. Vivamus a mi id nibh feugiat sollicitudin in ac tellus. Vivamus non dignissim sapien.
+
+        <section-title title="Tecnologias"></section-title>
+      </div>
     </v-flex>
   </v-layout>
 </template>
+
+<style>
+  .title-container:first-child {
+    margin-top: 0px;
+  }
+</style>
+
+<script>
+  import SectionTitle from '../components/SectionTitle'
+  
+  export default {
+    components: {
+      'section-title': SectionTitle
+    }
+  }
+</script>
