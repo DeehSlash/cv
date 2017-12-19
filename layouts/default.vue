@@ -2,7 +2,7 @@
   <v-app light>
 
     <v-navigation-drawer class="hidden-md-and-up" v-model="drawer" :fixed="fixed">
-      <v-toolbar flat color="primary">
+      <v-toolbar flat color="white">
         <v-list>
           <v-list-tile>
             <v-list-tile-title class="title">
@@ -27,7 +27,7 @@
     <v-toolbar fixed flat app class="white--text">
       <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-side-icon class="hidden-md-and-up white--text" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn v-for="(item, i) in items" :key="i" flat class="white--text">{{ item.title }}</v-btn>
       </v-toolbar-items>
