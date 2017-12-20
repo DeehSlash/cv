@@ -7,6 +7,9 @@
       </section>
       <section>
         <section-title title="Tecnologias" anchor="technologies"></section-title>
+        <v-layout row wrap>
+          <technology img="/vuejs.png" name="Vue.js" color="grey lighten-3"></technology>
+        </v-layout>
       </section>
     </v-flex>
   </v-layout>
@@ -23,10 +26,12 @@
 
 <script>
   import SectionTitle from '~/components/SectionTitle'
+  import Technology from '~/components/Technology'
   
   export default {
     components: {
-      'section-title': SectionTitle
+      'section-title': SectionTitle,
+      'technology': Technology
     }
   }
 </script>
