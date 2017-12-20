@@ -3,7 +3,13 @@
     <v-flex xs10>
       <section>
         <section-title title="Sobre" anchor="about"></section-title>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pulvinar malesuada accumsan. Suspendisse quis faucibus massa. Quisque dignissim euismod ipsum in tincidunt. Aenean ut mattis odio. Praesent at ligula et sem ullamcorper bibendum. Donec pulvinar aliquet sem faucibus maximus. Duis nec semper urna, sed pretium metus. Etiam scelerisque consectetur consequat. Aenean in imperdiet sem. Aenean ut risus eu diam aliquet maximus. In a dictum felis, sit amet tincidunt metus. Aliquam id viverra tortor. Nulla non elementum justo. Nulla at neque id neque aliquet placerat. Vivamus a mi id nibh feugiat sollicitudin in ac tellus. Vivamus non dignissim sapien.
+        <div class="text-xs-center">
+          <p>Olá, mundo! Meu nome é André Luiz, tenho 20 anos e sou residente de Brusque - SC.</p>
+          <p>
+            Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e faço estágio na área de desenvolvimento web.<br>
+            Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento full-stack de aplicações.
+          </p>
+        </div>
       </section>
       <section>
         <section-title title="Tecnologias" anchor="technologies"></section-title>
