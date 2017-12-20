@@ -51,12 +51,8 @@
 </template>
 
 <style>
-  section:first-child {
-    margin-top: 0px;
-  }
-
   section {
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
 </style>
 
