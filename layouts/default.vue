@@ -1,7 +1,7 @@
 <template>
   <v-app light>
 
-    <v-navigation-drawer class="hidden-md-and-up" v-model="drawer" :fixed="fixed">
+    <v-navigation-drawer class="hidden-md-and-up" v-model="drawer" fixed>
       <v-toolbar flat color="white">
         <v-list>
           <v-list-tile>
@@ -13,7 +13,7 @@
       </v-toolbar>
       <v-divider></v-divider>
       <v-list dense class="pt-0">
-        <v-list-tile v-for="item in items" :key="item.title" @click="">
+        <v-list-tile v-for="item in items" :key="item.title" :to="item.to">
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
@@ -41,7 +41,7 @@
       </v-container>
     </v-content>
 
-    <v-footer :fixed="fixed" app>
+    <v-footer fixed app>
       <span>&copy; 2017</span>
     </v-footer>
 
@@ -59,7 +59,6 @@
     data () {
       return {
         drawer: false,
-        fixed: true,
         title: 'André Luiz',
         items: [
           { icon: 'info', title: 'Sobre', to: '#about' },
