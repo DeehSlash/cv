@@ -3,7 +3,7 @@
     <v-flex xs10>
       <section>
         <section-title title="Sobre" anchor="about"></section-title>
-        <div class="text-xs-center">
+        <div class="text-xs-justify text-sm-center">
           <p>Olá, mundo! Meu nome é André Luiz, tenho 20 anos e sou residente de Brusque - SC.</p>
           <p>
             Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e faço estágio na área de desenvolvimento web.<br>
@@ -39,8 +39,7 @@
       </section>
       <section>
         <section-title title="Contato" anchor="contact"></section-title>
-        <div class="text-xs-center">
-          Vamos manter contato!<br>
+        <div class="text-xs-justify text-sm-center">
           Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas quiser bater um papo, estarei disponível nos seguintes meios:
           <v-layout row wrap justify-center class="mt-4">
             <v-flex xs12 sm6>
