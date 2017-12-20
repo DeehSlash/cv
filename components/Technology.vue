@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs6 sm4 md2 class="text-xs-center technology">
+  <v-flex xs6 sm4 md2 xl1 class="text-xs-center technology">
     <v-tooltip bottom>
       <!-- <v-avatar size="100px" :class="color" slot="activator"> -->
       <img :src="img" slot="activator">
