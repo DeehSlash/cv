@@ -42,7 +42,9 @@
     </v-content>
 
     <v-footer fixed app>
-      <span>&copy; 2017</span>
+      <v-layout justify-center class="pt-2 pb-2">
+        <span>&copy; 2017 - Desenvolvido em <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> + <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a></span>
+      </v-layout>
     </v-footer>
 
   </v-app>
@@ -51,6 +53,12 @@
 <style>
   nav {
     background-color: rgba(0, 0, 0, .25) !important
+  }
+
+  footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight:bold;
   }
 </style>
 
