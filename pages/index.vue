@@ -24,10 +24,10 @@
           <technology img="/blade.png" name="Laravel Blade" color="grey lighten-3"></technology>
           <technology img="/twig.png" name="Twig" color="grey lighten-3"></technology>
           <technology img="/sass.png" name="Sass" color="grey lighten-3"></technology>
+          <technology img="/stylus.png" name="Stylus" color="grey lighten-3"></technology>
           <technology img="/vuetify.png" name="Vuetify" color="grey lighten-3"></technology>
           <technology img="/materialize.png" name="Materialize" color="grey lighten-3"></technology>
           <technology img="/semantic-ui.png" name="Semantic UI" color="grey lighten-3"></technology>
-          <technology img="/stylus.png" name="Stylus" color="grey lighten-3"></technology>
           <technology img="/photoshop.png" name="Photoshop" color="grey lighten-3"></technology>
           <technology img="/git.png" name="Git" color="grey lighten-3"></technology>
           <technology img="/cpp.png" name="C++" color="grey lighten-3"></technology>
