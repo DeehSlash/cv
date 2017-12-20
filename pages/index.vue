@@ -54,6 +54,11 @@
   section {
     margin-bottom: 50px;
   }
+
+  a {
+    text-decoration: none;
+    font-weight:bold;
+  }
 </style>
 
 <script>
