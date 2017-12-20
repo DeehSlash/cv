@@ -40,7 +40,7 @@
       <section>
         <section-title title="Contato" anchor="contact"></section-title>
         <div class="text-xs-justify text-sm-center">
-          Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas quiser bater um papo, estarei disponível nos seguintes meios:
+          Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas bater um papo, estarei disponível nos seguintes meios:
           <v-layout row wrap justify-center class="mt-4">
             <v-flex xs12 sm6>
               <div class="group mb-3">
