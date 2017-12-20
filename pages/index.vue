@@ -67,6 +67,12 @@
   a {
     text-decoration: none;
     font-weight:bold;
+    transition: all .3s ease;
+  }
+
+  a:hover {
+    color: #5e9fdf;
+    transition: all .3s ease;
   }
 </style>
 

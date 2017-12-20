@@ -17,6 +17,12 @@
   .technology img {
     width: 100px;
     height: 100px;
+    transition: all .3s ease;
+  }
+
+  .technology img:hover {
+    opacity: .75;
+    transition: all .3s ease;
   }
 </style>
 
