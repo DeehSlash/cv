@@ -29,7 +29,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-side-icon class="hidden-md-and-up white--text" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn v-for="(item, i) in items" :key="i" flat class="white--text">{{ item.title }}</v-btn>
+        <v-btn v-for="(item, i) in items" :key="i" :to="item.to" flat v-smooth-scroll class="white--text">{{ item.title }}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
 
@@ -62,8 +62,8 @@
         fixed: true,
         title: 'André Luiz',
         items: [
-          { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+          { icon: 'info', title: 'Sobre', to: '#about' },
+          { icon: 'bubble_chart', title: 'Tecnologias', to: '#technologies' }
         ]
       }
     }

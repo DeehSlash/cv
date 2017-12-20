@@ -1,5 +1,5 @@
 <template>
-  <div class="title-container">
+  <div :id="anchor" class="title-container">
     <h1 class="text-xs-center">{{ title }}</h1>
     <v-divider></v-divider>
   </div>
@@ -21,6 +21,6 @@
 
 <script>
   export default {
-    props: ['title']
+    props: ['title', 'anchor']
   }
 </script>
