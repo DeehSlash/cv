@@ -62,7 +62,8 @@
         title: 'André Luiz',
         items: [
           { icon: 'info', title: 'Sobre', to: '#about' },
-          { icon: 'bubble_chart', title: 'Tecnologias', to: '#technologies' }
+          { icon: 'memory', title: 'Tecnologias', to: '#technologies' },
+          { icon: 'phone', title: 'Contato', to: '#contact' }
         ]
       }
     }

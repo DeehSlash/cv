@@ -31,6 +31,21 @@
           <technology img="/drupal.png" name="Drupal" color="grey lighten-3"></technology>
         </v-layout>
       </section>
+      <section>
+        <section-title title="Contato" anchor="contact"></section-title>
+        <div class="text-xs-center">
+          Vamos manter contato!<br>
+          Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas quiser bater um papo, estarei disponível nos seguintes meios:
+          <v-layout justify-center class="mt-4">
+            <span class="group mr-4">
+              <v-icon class="pr-2">mail</v-icon><a href="mailto:andreluiz.97@outlook.com">andreluiz.97@outlook.com</a>
+            </span>
+            <span class="group ml-4">
+              <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
+            </span>
+          </v-layout>
+        </div>
+      </section>
     </v-flex>
   </v-layout>
 </template>
@@ -39,6 +54,7 @@
   section:first-child {
     margin-top: 0px;
   }
+
   section {
     margin-top: 50px;
   }
