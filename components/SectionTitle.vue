@@ -7,6 +7,7 @@
 
 <style>
   h1 {
+    margin-bottom: 5px;
     text-transform: uppercase;
   }
 
