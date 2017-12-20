@@ -25,6 +25,9 @@
     </v-navigation-drawer>
 
     <v-toolbar fixed flat app class="white--text">
+      <v-avatar size="50px">
+        <img src="/profile.jpg">
+      </v-avatar>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon class="hidden-md-and-up white--text" @click="drawer = !drawer"></v-toolbar-side-icon>
