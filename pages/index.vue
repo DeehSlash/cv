@@ -42,12 +42,12 @@
         <div class="text-xs-justify text-sm-center">
           Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas bater um papo, estarei disponível nos seguintes meios:
           <v-layout row wrap justify-center class="mt-4">
-            <v-flex xs12 sm6>
+            <v-flex xs12 sm6 md4 lg3 xl2>
               <div class="group mb-3">
                 <v-icon class="pr-2">mail</v-icon><a href="mailto:andreluiz.97@outlook.com">andreluiz.97@outlook.com</a>
               </div>
             </v-flex>
-            <v-flex xs12 sm6>
+            <v-flex xs12 sm6 md4 lg3 xl2>
               <div class="group">
                 <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
               </div>
