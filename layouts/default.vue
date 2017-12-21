@@ -36,7 +36,7 @@
       </v-toolbar-items>
     </v-toolbar>
 
-    <v-parallax src="/parallax.png" />
+    <v-parallax src="/header.jpg" />
     
     <v-content>
       <v-container>
@@ -55,7 +55,20 @@
 
 <style>
   nav {
-    background-color: rgba(0, 0, 0, .25) !important
+    background-color: rgba(47, 128, 237, .95) !important;
+  }
+
+  #app {
+    animation: app-fade-in 1s;
+  }
+
+  @keyframes app-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   footer a {
