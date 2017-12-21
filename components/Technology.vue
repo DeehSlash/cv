@@ -1,9 +1,7 @@
 <template>
   <v-flex xs6 sm4 md3 lg2 xl1 class="text-xs-center technology">
     <v-tooltip bottom>
-      <!-- <v-avatar size="100px" :class="color" slot="activator"> -->
       <img :src="img" slot="activator">
-      <!-- </v-avatar> -->
       <span>{{ name }}</span>
     </v-tooltip>
   </v-flex>
@@ -28,6 +26,6 @@
 
 <script>
   export default {
-    props: ['img', 'name', 'color']
+    props: ['img', 'name']
   }
 </script>
