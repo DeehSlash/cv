@@ -46,7 +46,7 @@
 
     <v-footer fixed app color="grey lighten-2">
       <v-layout justify-center class="pt-2 pb-2">
-        <span>&copy; 2017 - Desenvolvido em <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> + <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a></span>
+        <span>&copy; 2018 - Desenvolvido com <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> + <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a></span>
       </v-layout>
     </v-footer>
 
