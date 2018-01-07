@@ -59,10 +59,10 @@
   }
 
   #app {
-    animation: app-fade-in 1s;
+    animation: fade-in 1s;
   }
 
-  @keyframes app-fade-in {
+  @keyframes fade-in {
     from {
       opacity: 0;
     }
