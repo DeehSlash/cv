@@ -24,7 +24,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-toolbar fixed flat app class="white--text">
+    <v-toolbar fixed flat app class="white--text blue">
       <v-avatar size="45px">
         <img src="/profile.jpg">
       </v-avatar>
@@ -54,12 +54,20 @@
 </template>
 
 <style>
-  nav {
-    background-color: rgba(47, 128, 237, .95) !important;
-  }
-
   #app {
     animation: fade-in 1s;
+  }
+
+  a {
+    color: #2979ff !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease;
+  }
+  
+  a:hover {
+    color: #64b5f6 !important;
+    transition: all .3s ease;
   }
 
   @keyframes fade-in {
@@ -69,12 +77,6 @@
     to {
       opacity: 1;
     }
-  }
-
-  footer a {
-    color: #000;
-    text-decoration: none;
-    font-weight:bold;
   }
 </style>
 
