@@ -58,14 +58,14 @@
     animation: fade-in 1s;
   }
 
-  a {
+  main a, footer a {
     color: #2979ff !important;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease;
   }
   
-  a:hover {
+   main a:hover, footer a:hover {
     color: #64b5f6 !important;
     transition: all .3s ease;
   }
