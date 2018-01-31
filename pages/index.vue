@@ -4,7 +4,7 @@
       <section>
         <section-title title="Sobre" anchor="about"></section-title>
         <div class="text-xs-justify text-sm-center">
-          <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho 20 anos e sou residente de Brusque - SC.</p>
+          <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho 21 anos e sou residente de Brusque - SC.</p>
           <p>
             Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e trabalho na área de desenvolvimento web.<br>
             Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento <b>full-stack</b> de aplicações.
