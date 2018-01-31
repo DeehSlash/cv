@@ -29,6 +29,7 @@
           <technology img="/materialize.png" name="Materialize"></technology>
           <technology img="/semantic-ui.png" name="Semantic UI"></technology>
           <technology img="/photoshop.png" name="Photoshop"></technology>
+          <technology img="/illustrator.png" name="Illustrator"></technology>
           <technology img="/git.png" name="Git"></technology>
           <technology img="/cpp.png" name="C++"></technology>
           <technology img="/java.png" name="Java"></technology>
