@@ -56,26 +56,10 @@
             </v-flex>
           </v-layout>
           <v-layout row wrap justify-center class="mt-4 mb-3">
-            <v-flex xs12 sm6 md4 lg3 xl2>
-              <div class="group">
-                <v-icon class="pr-2">mdi-facebook-box</v-icon><a href="https://www.facebook.com/DeehSlash" target="_blank">fb.com/DeehSlash</a>
-              </div>
-            </v-flex>
-            <v-flex xs12 sm6 md4 lg3 xl2>
-              <div class="group">
-                <v-icon class="pr-2">mdi-instagram</v-icon><a href="https://www.instagram.com/deehslash" target="_blank">DeehSlash</a>
-              </div>
-            </v-flex>
-            <v-flex xs12 sm6 md4 lg3 xl2>
-              <div class="group">
-                <v-icon class="pr-2">mdi-linkedin-box</v-icon><a href="https://www.linkedin.com/in/andreluiz97" target="_blank">andreluiz97</a>
-              </div>
-            </v-flex>
-            <v-flex xs12 sm6 md4 lg3 xl2>
-              <div class="group">
-                <v-icon class="pr-2">mdi-skype</v-icon><a href="skype:deeh1901?chat">deeh1901</a>
-              </div>
-            </v-flex>
+            <social icon="mdi-facebook-box" color="#3b5998" href="https://www.facebook.com/DeehSlash" target="_blank"></social>
+            <social icon="mdi-instagram" color="#c32aa3" href="https://www.instagram.com/deehslash" target="_blank"></social>
+            <social icon="mdi-linkedin-box" color="#0077b5" href="https://www.linkedin.com/in/andreluiz97" target="_blank"></social>
+            <social icon="mdi-skype" color="#00aff0" href="skype:deeh1901?chat"></social>
           </v-layout>
         </div>
       </section>
@@ -92,11 +76,13 @@
 <script>
   import SectionTitle from '~/components/SectionTitle'
   import Technology from '~/components/Technology'
+  import Social from '~/components/Social'
   
   export default {
     components: {
       'section-title': SectionTitle,
-      'technology': Technology
+      'technology': Technology,
+      'social': Social
     }
   }
 </script>
