@@ -25,12 +25,12 @@
     </v-navigation-drawer>
 
     <v-toolbar fixed flat app class="white--text blue">
-      <v-avatar size="45px">
+      <v-toolbar-side-icon class="hidden-md-and-up white--text mr-0" @click="drawer = !drawer"></v-toolbar-side-icon>
+      <v-avatar size="45px" class="ml-3">
         <img src="/profile.jpg">
       </v-avatar>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon class="hidden-md-and-up white--text" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn v-for="(item, i) in items" :key="i" :to="item.to" flat v-smooth-scroll class="white--text">{{ item.title }}</v-btn>
       </v-toolbar-items>
