@@ -36,6 +36,7 @@
           <technology img="/mysql.png" name="MySQL"></technology>
           <technology img="/postgresql.png" name="PostgreSQL"></technology>
           <technology img="/drupal.png" name="Drupal"></technology>
+          <technology img="/nuvemshop.png" name="Nuvem Shop"></technology>
         </v-layout>
       </section>
       <section>
