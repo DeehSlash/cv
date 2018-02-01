@@ -10,7 +10,8 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'André Luiz CV' },
       { name: 'msapplication-config', content: '/favicons/browserconfig.xml' },
-      { name: 'theme-color', content: '#2196f3' }
+      { name: 'theme-color', content: '#2196f3' },
+      { name: 'google-site-verification', content: 'woSoBVXTjkWG5Iao0xlfoo5SqlEwD3WxVpASf0PxxRs' }
     ],
     link: [
       // Favicons
