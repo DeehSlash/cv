@@ -44,13 +44,35 @@
           Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas bater um papo, estarei disponível nos seguintes meios:
           <v-layout row wrap justify-center class="mt-4">
             <v-flex xs12 sm6 md4 lg3 xl2>
-              <div class="group mb-3">
+              <div class="group">
                 <v-icon class="pr-2">mail</v-icon><a href="mailto:andreluiz.97@outlook.com">andreluiz.97@outlook.com</a>
               </div>
             </v-flex>
             <v-flex xs12 sm6 md4 lg3 xl2>
               <div class="group">
                 <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
+              </div>
+            </v-flex>
+          </v-layout>
+          <v-layout row wrap justify-center class="mt-4 mb-3">
+            <v-flex xs12 sm6 md4 lg3 xl2>
+              <div class="group">
+                <v-icon class="pr-2">mdi-facebook-box</v-icon><a href="https://www.facebook.com/DeehSlash" target="_blank">fb.com/DeehSlash</a>
+              </div>
+            </v-flex>
+            <v-flex xs12 sm6 md4 lg3 xl2>
+              <div class="group">
+                <v-icon class="pr-2">mdi-instagram</v-icon><a href="https://www.instagram.com/deehslash" target="_blank">DeehSlash</a>
+              </div>
+            </v-flex>
+            <v-flex xs12 sm6 md4 lg3 xl2>
+              <div class="group">
+                <v-icon class="pr-2">mdi-linkedin-box</v-icon><a href="https://www.linkedin.com/in/andreluiz97" target="_blank">andreluiz97</a>
+              </div>
+            </v-flex>
+            <v-flex xs12 sm6 md4 lg3 xl2>
+              <div class="group">
+                <v-icon class="pr-2">mdi-skype</v-icon><a href="skype:deeh1901?chat">deeh1901</a>
               </div>
             </v-flex>
           </v-layout>
