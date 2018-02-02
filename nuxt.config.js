@@ -4,6 +4,10 @@ module.exports = {
   ** Headers of the page
   */
   head: {
+    script: [
+      { src: 'https://www.googletagmanager.com/gtag/js?id=UA-113450247-1', async: true },
+      { innerHTML: 'window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("js", new Date()); gtag("config", "UA-113450247-1");' }
+    ],
     title: 'André Luiz',
     meta: [
       { charset: 'utf-8' },
