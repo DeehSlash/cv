@@ -53,7 +53,7 @@
       <section>
         <section-title title="Portfolio" anchor="portfolio"/>
         <div class="text-xs-justify text-sm-center">
-          <p>Alguns dos projetos que já participei ou que estão sendo desenvolvidos.</p>
+          <p>Alguns dos projetos que participei ou que estão sendo desenvolvidos.</p>
         </div>
         <v-layout row wrap>
           <portfolio-item name="CRQ IX" image="crq-ix.jpg" link="http://crq9.gov.br/">

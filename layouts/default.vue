@@ -62,12 +62,12 @@
     color: #2979ff !important;
     font-weight: bold;
     text-decoration: none;
-    transition: all .3s ease;
+    transition: color .3s ease;
   }
   
    main a:hover, footer a:hover {
     color: #64b5f6 !important;
-    transition: all .3s ease;
+    transition: color .3s ease;
   }
 
   @keyframes fade-in {
