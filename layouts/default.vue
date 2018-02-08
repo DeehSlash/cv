@@ -89,6 +89,7 @@
         items: [
           { icon: 'info', title: 'Sobre', to: '#about' },
           { icon: 'memory', title: 'Tecnologias', to: '#technologies' },
+          { icon: 'work', title: 'Portfolio', to: '#portfolio' },
           { icon: 'phone', title: 'Contato', to: '#contact' }
         ]
       }
