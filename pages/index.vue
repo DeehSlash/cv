@@ -1,6 +1,7 @@
 <template>
   <v-layout justify-center>
     <v-flex xs10>
+      
       <section>
         <section-title title="Sobre" anchor="about"/>
         <div class="text-xs-justify text-sm-center">
@@ -11,6 +12,7 @@
           </p>
         </div>
       </section>
+
       <section>
         <section-title title="Tecnologias" anchor="technologies"/>
         <div class="text-js-justify text-sm-center mb-5">
@@ -47,12 +49,14 @@
           <technology img="nuvemshop.png" name="Nuvem Shop"/>
         </v-layout>
       </section>
+
       <section>
         <section-title title="Portfolio" anchor="portfolio"/>
         <div class="text-xs-justify text-sm-center">
           Alguns dos projetos que já participei
         </div>
       </section>
+
       <section>
         <section-title title="Contato" anchor="contact"/>
         <div class="text-xs-justify text-sm-center">
@@ -77,6 +81,7 @@
           </v-layout>
         </div>
       </section>
+
     </v-flex>
   </v-layout>
 </template>
