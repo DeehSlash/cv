@@ -52,7 +52,7 @@
 
       <section>
         <section-title title="Portfolio" anchor="portfolio"/>
-        <div class="text-xs-justify text-sm-center">
+        <div class="text-xs-justify text-sm-center mb-5">
           <p>Alguns dos projetos que participei ou que estão sendo desenvolvidos.</p>
         </div>
         <v-layout row wrap>
