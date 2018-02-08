@@ -56,20 +56,20 @@
           <p>Alguns dos projetos que já participei</p>
         </div>
         <v-layout row wrap>
-          <portfolio-item name="CMS para Prefeitura" image="cms.jpg" link="http://amargosa.ba.gov.br/">
-            CMS desenvolvido em Laravel para uso de Prefeitura. Possui diversos módulos, como notícias, páginas, licitações, calendário de eventos, galeria de fotos, menus, entre outros.
+          <portfolio-item name="CRQ IX" image="crq-ix.jpg" link="http://crq9.gov.br/">
+            Criação de website com CMS Drupal. Customização do layout / template.
           </portfolio-item>
           <portfolio-item name="IG shop" image="ig-shop.jpg" link="https://igshop.com.br/">
             Criação de loja com a plataforma Nuvem Shop. Customização do layout / template.
+          </portfolio-item>
+          <portfolio-item name="CMS para Prefeitura" image="cms.jpg" link="http://amargosa.ba.gov.br/">
+            CMS desenvolvido em Laravel para uso de Prefeitura. Possui diversos módulos, como notícias, páginas, licitações, calendário de eventos, galeria de fotos, menus, entre outros.
           </portfolio-item>
           <portfolio-item name="Tecnologia em Destaque" image="tecnologia-em-destaque.jpg" link="https://www.tecnologiadestaque.com.br/">
             Criação de loja com a plataforma Nuvem Shop. Customização do layout / template.
           </portfolio-item>
           <portfolio-item name="Gmaes Segurança" image="gmaes-seguranca.jpg" link="https://gmaesseguranca.com.br/">
             Criação de loja com a plataforma Nuvem Shop. Customização do layout / template.
-          </portfolio-item>
-          <portfolio-item name="CRQ IX" image="crq-ix.jpg" link="http://crq9.gov.br/">
-            Criação de website com CMS Drupal. Customização do layout / template.
           </portfolio-item>
         </v-layout>
       </section>
