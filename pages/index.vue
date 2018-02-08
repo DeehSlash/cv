@@ -1,7 +1,7 @@
 <template>
   <v-layout justify-center>
     <v-flex xs10>
-      
+
       <section>
         <section-title title="Sobre" anchor="about"/>
         <div class="text-xs-justify text-sm-center">
@@ -53,8 +53,13 @@
       <section>
         <section-title title="Portfolio" anchor="portfolio"/>
         <div class="text-xs-justify text-sm-center">
-          Alguns dos projetos que já participei
+          <p>Alguns dos projetos que já participei</p>
         </div>
+        <v-layout row wrap>
+          <portfolio-item name="CMS para Prefeitura" image="cms.jpg" link="http://amargosa.ba.gov.br/">
+            CMS desenvolvido em Laravel para uso de Prefeitura. Possui diversos módulos, como notícias, páginas, licitações, calendário de eventos, galeria de fotos, menus, entre outros.
+          </portfolio-item>
+        </v-layout>
       </section>
 
       <section>
@@ -93,15 +98,17 @@
 </style>
 
 <script>
+  import PortfolioItem from '~/components/PortfolioItem'
   import SectionTitle from '~/components/SectionTitle'
-  import Technology from '~/components/Technology'
   import Social from '~/components/Social'
+  import Technology from '~/components/Technology'
   
   export default {
     components: {
+      PortfolioItem,
       SectionTitle,
-      Technology,
-      Social
+      Social,
+      Technology
     }
   }
 </script>
