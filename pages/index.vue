@@ -13,6 +13,9 @@
       </section>
       <section>
         <section-title title="Tecnologias" anchor="technologies"></section-title>
+        <div class="text-js-justify text-sm-center mb-5">
+          <p>Algumas das tecnologias que já trabalhei ou que trabalho atualmente. Estão incluídas linguagens, sotwares, frameworks, bancos de dados, plataformas, entre outros.</p>
+        </div>
         <v-layout row wrap>
           <technology img="html5.png" name="HTML 5"></technology>
           <technology img="css3.png" name="CSS 3"></technology>
@@ -21,6 +24,8 @@
           <technology img="nodejs.png" name="Node.js"></technology>
           <technology img="npm.png" name="npm"></technology>
           <technology img="express.png" name="express"></technology>
+          <technology img="sequelize.png" name="Sequelize"></technology>
+          <technology img="jquery.png" name="jQuery"></technology>
           <technology img="vuejs.png" name="Vue.js"></technology>
           <technology img="nuxtjs.png" name="Nuxt.js"></technology>
           <technology img="laravel.png" name="Laravel"></technology>
