@@ -48,6 +48,12 @@
         </v-layout>
       </section>
       <section>
+        <section-title title="Portfolio" anchor="portfolio"></section-title>
+        <div class="text-xs-justify text-sm-center">
+          Alguns dos projetos que já participei
+        </div>
+      </section>
+      <section>
         <section-title title="Contato" anchor="contact"></section-title>
         <div class="text-xs-justify text-sm-center">
           Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas bater um papo, estarei disponível nos seguintes meios:
