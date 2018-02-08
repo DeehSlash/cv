@@ -1,7 +1,7 @@
 <template>
   <div :id="anchor">
     <h1 class="text-xs-center">{{ title }}</h1>
-    <v-divider></v-divider>
+    <v-divider/>
   </div>
 </template>
 

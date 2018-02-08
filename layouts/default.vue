@@ -36,11 +36,11 @@
       </v-toolbar-items>
     </v-toolbar>
 
-    <v-parallax src="/header.jpg" />
+    <v-parallax src="/header.jpg"/>
     
     <v-content>
       <v-container>
-        <nuxt />
+        <nuxt/>
       </v-container>
     </v-content>
 
