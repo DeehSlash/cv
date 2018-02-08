@@ -13,7 +13,7 @@
         <v-btn v-if="link" flat color="blue darken-2" :href="link" target="_blank">Acessar</v-btn>
         <v-spacer/>
         <v-btn icon @click.native="show = !show">
-          <v-icon>{{ show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
+          <v-icon>{{ show ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}</v-icon>
         </v-btn>
       </v-card-actions>
 
