@@ -94,9 +94,9 @@
   
   export default {
     components: {
-      'section-title': SectionTitle,
-      'technology': Technology,
-      'social': Social
+      SectionTitle,
+      Technology,
+      Social
     }
   }
 </script>
