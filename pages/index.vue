@@ -18,7 +18,9 @@
           <technology img="css3.png" name="CSS 3"></technology>
           <technology img="js.png" name="JavaScript"></technology>
           <technology img="php.png" name="PHP"></technology>
+          <technology img="nodejs.png" name="Node.js"></technology>
           <technology img="npm.png" name="npm"></technology>
+          <technology img="express.png" name="express"></technology>
           <technology img="vuejs.png" name="Vue.js"></technology>
           <technology img="nuxtjs.png" name="Nuxt.js"></technology>
           <technology img="laravel.png" name="Laravel"></technology>
