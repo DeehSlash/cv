@@ -13,7 +13,7 @@
       </v-toolbar>
       <v-divider></v-divider>
       <v-list dense class="pt-0">
-        <v-list-tile v-for="item in items" :key="item.title" :to="item.to">
+        <v-list-tile v-for="item in items" :key="item.title" :href="item.to" v-smooth-scroll="{ duration: 500, offset: -75 }">
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
@@ -32,7 +32,7 @@
       <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn v-for="(item, i) in items" :key="i" :to="item.to" flat v-smooth-scroll class="white--text">{{ item.title }}</v-btn>
+        <v-btn v-for="(item, i) in items" :key="i" :href="item.to" flat v-smooth-scroll="{ duration: 500, offset: -75 }" class="white--text">{{ item.title }}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
 
