@@ -92,6 +92,11 @@
                 <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
               </div>
             </v-flex>
+            <v-flex xs12 sm6 md4 lg3 xl2>
+              <div class="group">
+                <v-icon class="pr-2">description</v-icon><a href="/cv.pdf" target="_blank">Currículo em PDF</a>
+              </div>
+            </v-flex>
           </v-layout>
           <v-layout row wrap justify-center class="mt-4 mb-3">
             <social icon="mdi-facebook-box" color="#3b5998" href="https://www.facebook.com/DeehSlash" target="_blank"/>
