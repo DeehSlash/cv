@@ -61,19 +61,19 @@
             Criação de website com CMS Drupal. Customização do layout / template.
           </portfolio-item>
           <portfolio-item name="IG shop" image="ig-shop.jpg" link="https://igshop.com.br/">
-            Criação de loja com a plataforma Nuvem Shop. Customização do layout / template.
+            Criação de loja virtual com a plataforma Nuvem Shop. Customização do layout / template.
           </portfolio-item>
           <portfolio-item name="CMS para Prefeitura" image="cms.jpg" link="http://amargosa.ba.gov.br/">
             CMS desenvolvido em Laravel para uso de Prefeitura. Possui diversos módulos, como notícias, páginas, licitações, calendário de eventos, galeria de fotos, menus, entre outros.
           </portfolio-item>
           <portfolio-item name="Tecnologia em Destaque" image="tecnologia-em-destaque.jpg" link="https://www.tecnologiadestaque.com.br/">
-            Criação de loja com a plataforma Nuvem Shop. Customização do layout / template.
+            Criação de loja virtual com a plataforma Nuvem Shop. Customização do layout / template.
           </portfolio-item>
           <portfolio-item name="Gmaes Segurança" image="gmaes-seguranca.jpg" link="https://gmaesseguranca.com.br/">
-            Criação de loja com a plataforma Nuvem Shop. Customização do layout / template.
+            Criação de loja virtual com a plataforma Nuvem Shop. Customização do layout / template.
           </portfolio-item>
           <portfolio-item name="Marketplace Bridge" image="nuvemshop.jpg">
-            Aplicação desenvolvida em Node.js para sincronizar produtos da plataforma Nuvem Shop com o hub de marketplaces SkyHub.
+            Desenvolvimento de aplicação em Node.js para sincronizar produtos da plataforma Nuvem Shop com o hub de marketplaces SkyHub. Possui sincronização periódica, painel para gerenciar produtos, pedidos, entre outros.
           </portfolio-item>
         </v-layout>
       </section>
