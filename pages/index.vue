@@ -6,10 +6,11 @@
         <section-title title="Sobre" anchor="about"/>
         <div class="text-xs-justify text-sm-center">
           <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho 21 anos e sou residente de Brusque - SC.</p>
-          <p>
-            Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e trabalho na área de desenvolvimento web.<br>
-            Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento <b>full-stack</b> de aplicações.
-          </p>
+          <p>Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e trabalho na área de desenvolvimento web.<br>
+            Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento <b>full-stack</b> de aplicações.</p>
+          <div class="group mt-4">
+            <v-icon class="pr-2">description</v-icon><a href="/cv.pdf" target="_blank">Currículo em PDF</a>
+          </div>
         </div>
       </section>
 
@@ -90,11 +91,6 @@
             <v-flex xs12 sm6 md4 lg3 xl2>
               <div class="group">
                 <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
-              </div>
-            </v-flex>
-            <v-flex xs12 sm6 md4 lg3 xl2>
-              <div class="group">
-                <v-icon class="pr-2">description</v-icon><a href="/cv.pdf" target="_blank">Currículo em PDF</a>
               </div>
             </v-flex>
           </v-layout>
