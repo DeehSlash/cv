@@ -17,7 +17,7 @@
       <section>
         <section-title title="Tecnologias" anchor="technologies"/>
         <div class="text-js-justify text-sm-center mb-5">
-          <p>Algumas das tecnologias que já trabalhei ou que trabalho atualmente. Estão incluídas linguagens, sotwares, frameworks, bancos de dados, plataformas, entre outros.</p>
+          <p>Algumas das tecnologias que já trabalhei ou que trabalho atualmente. Estão incluídas linguagens, softwares, frameworks, bancos de dados, plataformas, entre outros.</p>
         </div>
         <v-layout row wrap>
           <technology img="html5.png" name="HTML 5"/>
