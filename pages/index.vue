@@ -72,7 +72,7 @@
           <portfolio-item name="Gmaes Segurança" image="gmaes-seguranca.jpg" link="https://gmaesseguranca.com.br/">
             Criação de loja virtual com a plataforma Nuvem Shop. Customização do layout / template.
           </portfolio-item>
-          <portfolio-item name="Marketplace Bridge" image="nuvemshop.jpg">
+          <portfolio-item name="Marketplace Bridge" image="marketplace-bridge.jpg">
             Desenvolvimento de aplicação em Node.js para sincronizar produtos da plataforma Nuvem Shop com o hub de marketplaces SkyHub. Possui sincronização periódica, painel para gerenciar produtos, pedidos, entre outros.
           </portfolio-item>
         </v-layout>
