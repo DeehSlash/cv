@@ -40,7 +40,7 @@
           <technology img="materialize.png" name="Materialize"/>
           <technology img="semantic-ui.png" name="Semantic UI"/>
           <technology img="photoshop.png" name="Photoshop"/>
-          <technology img="illustrator.png" name="Illustrator"/>
+          <!-- <technology img="illustrator.png" name="Illustrator"/> -->
           <technology img="git.png" name="Git"/>
           <technology img="cpp.png" name="C++"/>
           <technology img="java.png" name="Java"/>
