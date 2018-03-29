@@ -23,7 +23,6 @@
           <technology img="html5.png" name="HTML 5"/>
           <technology img="css3.png" name="CSS 3"/>
           <technology img="js.png" name="JavaScript"/>
-          <technology img="php.png" name="PHP"/>
           <technology img="nodejs.png" name="Node.js"/>
           <technology img="npm.png" name="npm"/>
           <technology img="express.png" name="express"/>
@@ -34,13 +33,13 @@
           <technology img="laravel.png" name="Laravel"/>
           <technology img="blade.png" name="Laravel Blade"/>
           <technology img="twig.png" name="Twig"/>
+          <technology img="pugjs.png" name="Pug.js"/>
           <technology img="sass.png" name="Sass"/>
           <technology img="stylus.png" name="Stylus"/>
           <technology img="vuetify.png" name="Vuetify.js"/>
           <technology img="materialize.png" name="Materialize"/>
           <technology img="semantic-ui.png" name="Semantic UI"/>
           <technology img="photoshop.png" name="Photoshop"/>
-          <!-- <technology img="illustrator.png" name="Illustrator"/> -->
           <technology img="git.png" name="Git"/>
           <technology img="cpp.png" name="C++"/>
           <technology img="java.png" name="Java"/>
