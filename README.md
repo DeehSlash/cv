@@ -1,22 +1,41 @@
-# andreluiz-cv
+# CV
 
-> André Luiz CV
+> CV com informações sobre mim, tecnologias, portfolio e contato.
 
-## Build Setup
+## Requisitos
+
+- Node.js
+- npm (ou outro package manager **compatível**)
+
+## Instalação
+
+- Instale as dependências com:
 
 ``` bash
-# install dependencies
-$ npm install # Or yarn install
+$ npm install # ou npm i
+```
 
-# serve with hot reload at localhost:3000
+## Execução
+
+- Execute no modo de desenvolvimento com **hot reload**:
+
+``` bash
 $ npm run dev
+```
 
-# build for production and launch server
+- **OU** execute no modo de produção:
+
+``` bash
 $ npm run build
 $ npm start
+```
 
-# generate static project
+- **OU** gere o projeto estático:
+
+``` bash
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
+## Observações
+
+Projeto desenvolvido com [**Nuxt.js**](https://nuxtjs.org/) e [**Vuetify.js**](https://vuetifyjs.com/). Dê uma olhada nesses excelentes projetos.
