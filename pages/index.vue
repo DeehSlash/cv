@@ -155,6 +155,13 @@
             img: 'marketplace-bridge.jpg',
             enabled: true,
             description: 'Desenvolvimento de aplicação em Node.js para sincronizar produtos da plataforma Nuvem Shop com o hub de marketplaces SkyHub. Possui sincronização periódica, painel para gerenciar produtos, pedidos, entre outros.'
+          },
+          {
+            name: 'Voucher Printer',
+            img: 'voucher-printer.jpg',
+            link: 'https://github.com/DeehSlash/Voucher-Printer',
+            enabled: false,
+            description: 'Aplicação em Node.js e Express para imprimir voucher de hotspot em impressora térmica utilizando API da RouterBoard MikroTik para gerar os usuários dinamicamente.'
           }
         ],
         social: [
