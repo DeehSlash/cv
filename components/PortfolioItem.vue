@@ -1,7 +1,7 @@
 <template>
   <v-flex xs12 sm6 lg4 xl3 class="text-xs-center portfolio-item">
     <v-card>
-      <v-card-media :src="'/portfolio/' + image" height="200px"/>
+      <v-card-media :src="'/portfolio/' + img" height="200px"/>
 
       <v-card-title primary-title>
         <div>
@@ -35,7 +35,7 @@
 
 <script>
   export default {
-    props: ['name', 'image', 'link'],
+    props: ['name', 'img', 'link'],
     data () {
       return {
         show: false
