@@ -26,7 +26,7 @@ module.exports = {
       { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#5bbad5' },
       { rel: 'shortcut icon', href: '/favicons/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' },
-      { rel: 'stylesheet', href: 'http://cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css' }
+      { rel: 'stylesheet', href: 'https://cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css' }
     ]
   },
   plugins: [
