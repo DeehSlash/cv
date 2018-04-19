@@ -10,7 +10,7 @@
       </v-card-title>
 
       <v-card-actions>
-        <v-btn v-if="link" flat color="blue darken-2" :href="link" target="_blank">Acessar</v-btn>
+        <v-btn flat color="blue darken-2" :href="link" :disabled="!link" target="_blank">{{ link? 'Acessar' : 'Não disponível' }}</v-btn>
         <v-spacer/>
         <v-btn icon @click.native="show = !show">
           <v-icon>{{ show ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}</v-icon>
