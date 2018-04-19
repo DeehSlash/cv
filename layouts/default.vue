@@ -87,6 +87,7 @@
         drawer: false,
         title: 'André Luiz',
         items: [
+          { icon: 'home', title: 'Início', to: '#app' },
           { icon: 'info', title: 'Sobre', to: '#about' },
           { icon: 'memory', title: 'Tecnologias', to: '#technologies' },
           { icon: 'work', title: 'Portfolio', to: '#portfolio' },
