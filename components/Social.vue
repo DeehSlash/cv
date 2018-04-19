@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs3 sm2 md1 class="social">
+  <v-flex xs2 sm1 class="social">
     <a :href="href" :target="target"><v-icon large :style="'color: ' + color">{{ icon }}</v-icon></a>
   </v-flex>
 </template>
