@@ -1,9 +1,11 @@
 <template>
   <v-flex xs6 sm4 md3 lg2 xl1 class="text-xs-center technology">
+
     <v-tooltip bottom>
       <img :src="'/technologies/' + img" slot="activator">
       <span>{{ name }}</span>
     </v-tooltip>
+  
   </v-flex>
 </template>
 
