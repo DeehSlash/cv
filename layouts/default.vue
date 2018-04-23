@@ -46,7 +46,7 @@
 
     <v-footer app color="grey lighten-3">
       <v-layout justify-center class="pt-2 pb-2">
-        <span>&copy; {{ new Date().getFullYear() }} - Desenvolvido com <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> e <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a>. Deploys por <a href="https://www.netlify.com/" target="_blank">Netlify</a>.</span>
+        <span>&copy; {{ year }} - Desenvolvido com <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> e <a href="https://vuetifyjs.com/" target="_blank">Vuetify.js</a>. Deploys por <a href="https://www.netlify.com/" target="_blank">Netlify</a>.</span>
       </v-layout>
     </v-footer>
 
@@ -92,7 +92,8 @@
           { icon: 'memory', title: 'Tecnologias', to: '#technologies' },
           { icon: 'work', title: 'Portfolio', to: '#portfolio' },
           { icon: 'phone', title: 'Contato', to: '#contact' }
-        ]
+        ],
+        year: new Date().getFullYear()
       }
     }
   }
