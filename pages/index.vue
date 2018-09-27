@@ -96,7 +96,7 @@
           { name: 'Twig', img: 'twig.png', enabled: true },
           { name: 'Pug.js', img: 'pugjs.png', enabled: true },
           { name: 'Sass', img: 'sass.png', enabled: true },
-          { name: 'Stylus', img: 'stylus.png', enabled: true },
+          { name: 'Stylus', img: 'stylus.png', enabled: false },
           { name: 'Vuetify', img: 'vuetify.png', enabled: true },
           { name: 'Materialize', img: 'materialize.png', enabled: true },
           { name: 'Semantic UI', img: 'semantic-ui.png', enabled: true },
