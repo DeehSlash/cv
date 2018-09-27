@@ -11,7 +11,7 @@
     text-transform: uppercase;
   }
 
-  .divider {
+  .v-divider {
     margin-bottom: 25px;
   }
 </style>

@@ -28,7 +28,7 @@
     <!-- Toolbar -->
     <v-toolbar fixed flat app class="white--text blue">
       <v-toolbar-side-icon class="hidden-md-and-up white--text mr-0" @click="drawer = !drawer"/>
-      <v-avatar size="45px" class="ml-3">
+      <v-avatar size="45px">
         <img src="/profile.jpg">
       </v-avatar>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
