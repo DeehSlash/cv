@@ -156,7 +156,7 @@
             name: 'Voucher Printer',
             img: 'voucher-printer.jpg',
             link: 'https://github.com/DeehSlash/Voucher-Printer',
-            enabled: false,
+            enabled: true,
             description: 'Aplicação em Node.js e Express para imprimir voucher de hotspot em impressora térmica utilizando API da RouterBoard MikroTik para gerar os usuários dinamicamente.'
           }
         ],
