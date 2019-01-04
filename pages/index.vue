@@ -6,7 +6,7 @@
 
           <section>
             <section-title title="Sobre" anchor="about" class="mt-3"/>
-            <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho 21 anos e sou residente de Brusque - SC.</p>
+            <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho {{ age }} anos e sou residente de Brusque - SC.</p>
             <p>Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e trabalho na área de desenvolvimento web.<br>
             Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento <b>full-stack</b> de aplicações.</p>
 
@@ -70,6 +70,8 @@
 </style>
 
 <script>
+  import moment from 'moment'
+
   import PortfolioItem from '~/components/PortfolioItem'
   import SectionTitle from '~/components/SectionTitle'
   import Social from '~/components/Social'
@@ -84,6 +86,7 @@
     },
     data () {
       return {
+        age: moment().diff('1997-01-19', 'years'),
         technologies: [
           { name: 'HTML 5', img: 'html5.png', enabled: true },
           { name: 'CSS 3', img: 'css3.png', enabled: true },

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "2.0.2",
+    "moment": "^2.23.0",
     "nuxt": "2.3.4",
     "vue-smooth-scroll": "1.0.13",
     "vuetify": "1.4.0"

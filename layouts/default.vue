@@ -85,6 +85,8 @@
 </style>
 
 <script>
+  import moment from 'moment'
+
   export default {
     data () {
       return {
@@ -97,7 +99,7 @@
           { icon: 'work', title: 'Portfolio', to: '#portfolio' },
           { icon: 'phone', title: 'Contato', to: '#contact' }
         ],
-        year: new Date().getFullYear()
+        year: moment().year(),
       }
     }
   }
