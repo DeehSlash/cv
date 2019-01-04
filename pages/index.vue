@@ -1,62 +1,66 @@
 <template>
-  <v-layout justify-center>
-    <v-flex xs10>
+  <v-card>
+    <v-card-text>
+      <v-layout justify-center>
+        <v-flex xs11>
 
-      <section>
-        <section-title title="Sobre" anchor="about"/>
-        <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho 21 anos e sou residente de Brusque - SC.</p>
-        <p>Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e trabalho na área de desenvolvimento web.<br>
-        Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento <b>full-stack</b> de aplicações.</p>
+          <section>
+            <section-title title="Sobre" anchor="about" class="mt-3"/>
+            <p>Olá, mundo! Meu nome é <b>André Luiz</b>, tenho 21 anos e sou residente de Brusque - SC.</p>
+            <p>Atualmente estou graduando em Ciência da Computação pela <a href="https://www.univali.br" target="_blank">Universidade do Vale do Itajaí (UNIVALI)</a> e trabalho na área de desenvolvimento web.<br>
+            Me apaixonei pelo desenvolvimento web e sempre estou aprendendo coisas novas. Sou motivado pelos meus objetivos e pelo desafio de cada vez mais dominar o desenvolvimento <b>full-stack</b> de aplicações.</p>
 
-        <div class="mt-4">
-          <v-icon class="pr-2">description</v-icon><a href="/cv.pdf" target="_blank">Currículo em PDF</a>
-        </div>
-      </section>
+            <div class="mt-4">
+              <v-icon class="pr-2">description</v-icon><a href="/cv.pdf" target="_blank">Currículo em PDF</a>
+            </div>
+          </section>
 
-      <section>
-        <section-title title="Tecnologias" anchor="technologies"/>
-        <div class="mb-4">
-          <p>Algumas das tecnologias que já trabalhei ou que trabalho atualmente. Estão incluídas linguagens, softwares, frameworks, bancos de dados, plataformas, entre outros.</p>
-        </div>
-        
-        <v-layout row wrap>
-          <technology v-for="technology in technologies" :key="technology.name" v-if="technology.enabled" :img="technology.img" :name="technology.name"/>
-        </v-layout>
-      </section>
+          <section>
+            <section-title title="Tecnologias" anchor="technologies"/>
+            <div class="mb-4">
+              <p>Algumas das tecnologias que já trabalhei ou que trabalho atualmente. Estão incluídas linguagens, softwares, frameworks, bancos de dados, plataformas, entre outros.</p>
+            </div>
+            
+            <v-layout row wrap>
+              <technology v-for="technology in technologies" :key="technology.name" v-if="technology.enabled" :img="technology.img" :name="technology.name"/>
+            </v-layout>
+          </section>
 
-      <section>
-        <section-title title="Portfolio" anchor="portfolio"/>
-        <div class="mb-4">
-          <p>Alguns dos projetos que participei ou que estão sendo desenvolvidos.</p>
-        </div>
+          <section>
+            <section-title title="Portfolio" anchor="portfolio"/>
+            <div class="mb-4">
+              <p>Alguns dos projetos que participei ou que estão sendo desenvolvidos.</p>
+            </div>
 
-        <v-layout row wrap>
-          <portfolio-item v-for="item in portfolio" :key="item.name" v-if="item.enabled" :name="item.name" :img="item.img" :link="item.link">
-            {{ item.description }}
-          </portfolio-item>
-        </v-layout>
-      </section>
+            <v-layout row wrap>
+              <portfolio-item v-for="item in portfolio" :key="item.name" v-if="item.enabled" :name="item.name" :img="item.img" :link="item.link">
+                {{ item.description }}
+              </portfolio-item>
+            </v-layout>
+          </section>
 
-      <section>
-        <section-title title="Contato" anchor="contact"/>
-        <p>Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas bater um papo, estarei disponível nos seguintes meios:</p>
+          <section>
+            <section-title title="Contato" anchor="contact"/>
+            <p>Se você estiver interessado no meu trabalho, quiser tirar uma dúvida, ou apenas bater um papo, estarei disponível nos seguintes meios:</p>
 
-        <v-layout row wrap justify-center class="mt-4">
-          <v-flex xs12 sm6 md4 lg3 xl2>
-            <v-icon class="pr-2">mail</v-icon><a href="mailto:andreluiz.97@outlook.com">andreluiz.97@outlook.com</a>
-          </v-flex>
-          <v-flex xs12 sm6 md4 lg3 xl2>
-            <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
-          </v-flex>
-        </v-layout>
+            <v-layout row wrap justify-center class="mt-4">
+              <v-flex xs12 sm6 md4 lg3 xl2>
+                <v-icon class="pr-2">mail</v-icon><a href="mailto:andreluiz.97@outlook.com">andreluiz.97@outlook.com</a>
+              </v-flex>
+              <v-flex xs12 sm6 md4 lg3 xl2>
+                <v-icon class="pr-2">phone</v-icon><a href="tel:+5547999001415">+55 (47) 99900-1415</a>
+              </v-flex>
+            </v-layout>
 
-        <v-layout row wrap justify-center class="mt-4 mb-3">
-          <social v-for="(_social, i) in social" :key="i" v-if="_social.enabled" :icon="_social.icon" :color="_social.color" :href="_social.href" :target="_social.target"/>
-        </v-layout>
-      </section>
+            <v-layout row wrap justify-center class="mt-4 mb-3">
+              <social v-for="(_social, i) in social" :key="i" v-if="_social.enabled" :icon="_social.icon" :color="_social.color" :href="_social.href" :target="_social.target"/>
+            </v-layout>
+          </section>
 
-    </v-flex>
-  </v-layout>
+        </v-flex>
+      </v-layout>
+    </v-card-text>
+  </v-card>
 </template>
 
 <style>
